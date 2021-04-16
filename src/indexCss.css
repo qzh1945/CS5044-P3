@@ -1,0 +1,142 @@
+
+.line{
+    fill:none;
+    stroke: black;
+}
+.Boston{
+    fill:none;
+    stroke:blue;
+}
+.East_Lindsey{
+    fill: none;
+    stroke:rebeccapurple;
+}
+.Lincoln{
+    fill:none;
+    stroke:red;
+}
+.North_Kesteven{
+    fill:none;
+    stroke:aquamarine;
+}
+.South_Holland{
+    fill:none;
+    stroke:darkgoldenrod;
+}
+.South_Kesteven{
+    fill: none;
+    stroke: coral;
+}
+.West_Lindsey{
+    fill: none;
+    stroke: darkgreen;
+}
+
+
+.circleLincolnshire{
+    fill:black;
+}
+.circleBoston{
+    fill:blue;
+}
+.circleEast_Lindsey{
+    fill:rebeccapurple;
+}
+.circleLincoln{
+    fill: red;
+}
+.circleNorth_Kesteven{
+    fill: aquamarine;
+}
+.circleSouth_Holland{
+    fill: darkgoldenrod;
+}
+.circleSouth_Kesteven{
+    fill: coral;
+}
+.circleWest_Lindsey{
+    fill: darkgreen;
+}
+
+body
+{
+    background-color:#189aa1;
+    background-size:cover;
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size:15px;
+
+
+}
+t{
+    font-family: 'Corben', Georgia, Times, serif;
+    color: #d0ff9e;
+    font-size:80px;
+}
+div.content {
+    width: 1024px;
+    height: contain;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff7ed;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c3c42;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.navbar {
+    width:1044px;
+    overflow: auto;
+    background-color: #ed0e19;
+    background-color: rgba(255, 255, 255, .4);
+}
+.navbar a {
+
+    float:left;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.botto
+{
+    width:1024px;
+    height:170px;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-left: 20px;
+    font-size:12px;
+    font-style: bold;
+    background-color: rgba(255, 255, 255, .6);
+}
+h1{
+    font-family: 'Corben', Georgia, Times, serif;
+    color: #babd64;
+    font-size: 20px;
+}
+
+b{
+    width:1044px;
+    overflow: auto;
+    background-color: #ed0e19;
+    background-color: rgba(255, 255, 255, .4);
+}
+.cen {
+     margin: auto;
+     width: 50%;
+     border: 3px solid #596f80;
+     padding: 10px;
+ }
+.cent{
+    display: flex; /**/
+    justify-content: center; /*水平居中*/
+    align-items: Center; /*垂直居中*/
+}
+.sss{
+    margin: auto;
+    text-align: center;
+}
