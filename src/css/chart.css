@@ -1,0 +1,77 @@
+
+
+#myDiv{
+    width: 800px;
+    height: 700px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left:20px;
+
+}
+svg{
+    width: 200%;
+    height: 100%;
+}
+
+rect{
+    stroke: #999999;
+    stroke-width: 2px;
+    fill: gold;
+}
+#svg {
+    height:700%;
+}
+.bars text
+{
+    font-size: 10pt;
+}
+.update text
+{
+    font-size: 16pt;
+}
+
+body
+{
+    background-color:#189aa1;
+    background-size:cover;
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size:15px;
+}
+t{
+    font-family: 'Corben', Georgia, Times, serif;
+    color: #d0ff9e;
+    font-size:80px;
+}
+.navbar {
+    width:1044px;
+    overflow: auto;
+    background-color: #ed0e19;
+    background-color: rgba(136, 255, 240, 0.4);
+}
+
+.navbar a {
+
+    float:left;
+    font-size: 22px;
+    color: #c9ffd1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bar {
+    fill: #890377;
+}
+div.botto
+{
+    width:1024px;
+    height:170px;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-left: 20px;
+    font-size:12px;
+    font-style: bold;
+    background-color: rgba(255, 255, 255, .6);
+}

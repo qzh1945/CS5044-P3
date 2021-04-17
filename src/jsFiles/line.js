@@ -1,8 +1,8 @@
-var dataPath = "csv/emissions.csv";
+var dataPath = "../csv/emissions.csv";
 
-var width = 600;
-var height = 500;
-var margin = 100;
+var width = 800;
+var height = 700;
+var margin = 400;
 var nestedData;
 
 d3.select("body").append("div").attr("id", "dropDownMenu");
@@ -74,7 +74,7 @@ initializeLine(dataPath);
             d3.select("svg")
                 .append("g")
                 .attr("class", "y axis")
-                .attr("transform", "translate(" + margin + ",0)")
+                .attr("transform", "translate(" + margin + ", 0)")
                 .call(y_axis);
 
 

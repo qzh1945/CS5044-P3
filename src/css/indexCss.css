@@ -89,13 +89,12 @@ div.content {
     width:1044px;
     overflow: auto;
     background-color: #ed0e19;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(136, 255, 240, 0.4);
 }
 .navbar a {
-
     float:left;
     font-size: 22px;
-    color: white;
+    color: #c9ffd1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -139,4 +138,39 @@ b{
 .sss{
     margin: auto;
     text-align: center;
+}
+.dropdown {
+    float: left;
+    text-align: center;
+    overflow: auto;
+
+}
+.dropdown .dropbtn {
+
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
